@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Hi {{ user.username }},</p>
+    <p>Please verify your email by clicking the link below:</p>
+    <p><a href="{{ verification_url }}">Verify Email</a></p>
+    <p>If you didn't request this, please ignore this email.</p>
+    <p>Verification link: {{ verification_url }}</p>  <!-- Plain text fallback -->
+</body>
+</html>
