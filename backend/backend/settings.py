@@ -21,6 +21,7 @@ ALLOWED_HOSTS = [
     '54.164.100.151',
     'sil.docurex.africa', 
     'www.sil.docurex.africa',
+    '.sil.docurex.africa', 
 ]
 
 
